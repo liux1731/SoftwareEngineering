@@ -65,9 +65,9 @@ $().ready(function(){
 <div id="bar">
  <div id="msg"><span class="msg-text"></span><div class="msg-details"></div></div>
  <div class="bar-menu">
- <span class="menu-owner" style="display:none">
+<!--  <span class="menu-owner" style="display:none">
    <a href="#settings" id="settings"><?php _e('a_settings');?></a>
- </span>
+ </span> -->
  <span class="bar-delim" style="display:none"> | </span>
  <span id="bar_auth">
   <span id="bar_public" style="display:none"><?php _e('public_tasks');?> |</span>
@@ -81,20 +81,18 @@ $().ready(function(){
 
 <div id="page_tasks" style="display:none">
 
-<div id="lists">
- <ul class="mtt-tabs"></ul>
+<!-- <div id="lists">
+<ul class="mtt-tabs"></ul>
  <div class="mtt-tabs-add-button" title="<?php _e('list_new'); ?>"><span></span></div>
  <div id="tabs_buttons">
   <div class="mtt-tabs-select-button mtt-tabs-button" title="<?php _e('list_select'); ?>"><span></span></div>
  </div>
- <div id="list_all" class="mtt-tab mtt-tabs-alltasks mtt-tabs-hidden"><a href="#alltasks"><span><?php _e('alltasks'); ?></span><div class="list-action"></div></a></div>
-</div>
-
-
+ <div id="list_all" class="mtt-tab mtt-tabs-alltasks"><a href="#alltasks"><span><?php _e('alltasks'); ?></span><div class="list-action"></div></a></div>
+</div> -->
 
 <div id="toolbar" class="mtt-htabs">
 
-<div id="htab_search">
+<!-- <div id="htab_search">
  <table class="mtt-searchbox"><tr><td>
   <div class="mtt-searchbox-c">
    <input type="text" name="search" value="" maxlength="250" id="search" autocomplete="off" />
@@ -102,7 +100,7 @@ $().ready(function(){
    <div id="search_close" class="mtt-searchbox-icon mtt-icon-cancelsearch"></div>
   </div> 
  </td></tr></table>
-</div>
+</div> -->
 
 <div id="htab_newtask">
  <table class="mtt-taskbox"><tr><td class="mtt-tb-cell">
@@ -128,8 +126,9 @@ $().ready(function(){
 
 
 <h3>
-<span id="taskview" class="mtt-menu-button"><span class="btnstr"><?php _e('tasks');?></span> (<span id="total">0</span>) <span class="arrdown"></span></span>
-<span class="mtt-notes-showhide"><?php _e('notes');?> <a href="#" id="mtt-notes-show"><?php _e('notes_show');?></a> / <a href="#" id="mtt-notes-hide"><?php _e('notes_hide');?></a></span>
+<!-- <span id="taskview" class="mtt-menu-button"><span class="btnstr"><?php _e('tasks');?></span> (<span id="total">0</span>) <span class="arrdown"></span></span>
+ -->
+ <span class="mtt-notes-showhide"><?php _e('notes');?> <a href="#" id="mtt-notes-show"><?php _e('notes_show');?></a> / <a href="#" id="mtt-notes-hide"><?php _e('notes_hide');?></a></span>
 <span id="mtt_filters"></span>
 <span id="tagcloudbtn" class="mtt-menu-button"><?php _e('tagcloud');?> <span class="arrdown2"></span></span>
 </h3>
@@ -201,14 +200,14 @@ $().ready(function(){
  <span class="prio-pos prio-pos-2">+2</span>
 </div>
 
-<div id="taskviewcontainer" class="mtt-menu-container" style="display:none">
-<ul>
- <li id="view_tasks"><?php _e('tasks');?> (<span id="cnt_total">0</span>)</li>
- <li id="view_past"><?php _e('f_past');?> (<span id="cnt_past">0</span>)</li>
- <li id="view_today"><?php _e('f_today');?> (<span id="cnt_today">0</span>)</li>
- <li id="view_soon"><?php _e('f_soon');?> (<span id="cnt_soon">0</span>)</li>
-</ul>
-</div>
+  <!-- <div id="taskviewcontainer" class="mtt-menu-container" style="display:none">
+  <ul>
+   <li id="view_tasks"><?php _e('tasks');?> (<span id="cnt_total">0</span>)</li>
+   <li id="view_past"><?php _e('f_past');?> (<span id="cnt_past">0</span>)</li>
+   <li id="view_today"><?php _e('f_today');?> (<span id="cnt_today">0</span>)</li>
+   <li id="view_soon"><?php _e('f_soon');?> (<span id="cnt_soon">0</span>)</li>
+  </ul>
+  </div> -->
 
 <div id="tagcloud" style="display:none">
  <a id="tagcloudcancel" class="mtt-img-button"><span></span></a>
@@ -223,9 +222,9 @@ $().ready(function(){
  <li class="mtt-need-list mtt-need-real-list" id="btnDeleteList"><?php _e('list_delete');?></li>
  <li class="mtt-need-list mtt-need-real-list" id="btnClearCompleted"><?php _e('list_clearcompleted');?></li>
  <li class="mtt-need-list mtt-need-real-list mtt-menu-indicator" submenu="listexportmenucontainer"><div class="submenu-icon"></div><?php _e('list_export'); ?></li>
- <li class="mtt-menu-delimiter mtt-need-real-list"></li>
+<!--  <li class="mtt-menu-delimiter mtt-need-real-list"></li>
  <li class="mtt-need-list mtt-need-real-list" id="btnPublish"><div class="menu-icon"></div><?php _e('list_publish');?></li>
- <li class="mtt-need-list mtt-need-real-list" id="btnRssFeed"><div class="menu-icon"></div><?php _e('list_rssfeed');?></li>
+ <li class="mtt-need-list mtt-need-real-list" id="btnRssFeed"><div class="menu-icon"></div><?php _e('list_rssfeed');?></li> -->
  <li class="mtt-menu-delimiter mtt-need-real-list"></li>
  <li class="mtt-need-list mtt-need-real-list sort-item" id="sortByHand"><div class="menu-icon"></div><?php _e('sortByHand');?> <span class="mtt-sort-direction"></span></li>
  <li class="mtt-need-list sort-item" id="sortByDateCreated"><div class="menu-icon"></div><?php _e('sortByDateCreated');?> <span class="mtt-sort-direction"></span></li>
@@ -246,22 +245,22 @@ $().ready(function(){
 
 <div id="taskcontextcontainer" class="mtt-menu-container" style="display:none">
 <ul>
- <li id="cmenu_edit"><b><?php _e('action_edit');?></b></li>
+<!--  <li id="cmenu_edit"><b><?php _e('action_edit');?></b></li>
  <li id="cmenu_note"><?php _e('action_note');?></li>
- <li id="cmenu_prio" class="mtt-menu-indicator" submenu="cmenupriocontainer"><div class="submenu-icon"></div><?php _e('action_priority');?></li>
- <li id="cmenu_move" class="mtt-menu-indicator" submenu="cmenulistscontainer"><div class="submenu-icon"></div><?php _e('action_move');?></li>
- <li id="cmenu_delete"><?php _e('action_delete');?></li>
+ <li id="cmenu_prio" class="mtt-menu-indicator" submenu="cmenupriocontainer"><div class="submenu-icon"></div><?php _e('action_priority');?></li> -->
+<!--  <li id="cmenu_move" class="mtt-menu-indicator" submenu="cmenulistscontainer"><div class="submenu-icon"></div><?php _e('action_move');?></li>
+ --> <li id="cmenu_delete"><?php _e('action_delete');?></li>
 </ul>
 </div>
 
-<div id="cmenupriocontainer" class="mtt-menu-container" style="display:none">
+<!-- <div id="cmenupriocontainer" class="mtt-menu-container" style="display:none">
 <ul>
  <li id="cmenu_prio:2"><div class="menu-icon"></div>+2</li>
  <li id="cmenu_prio:1"><div class="menu-icon"></div>+1</li>
  <li id="cmenu_prio:0"><div class="menu-icon"></div>&plusmn;0</li>
  <li id="cmenu_prio:-1"><div class="menu-icon"></div>&minus;1</li>
 </ul>
-</div>
+</div> -->
 
 <div id="cmenulistscontainer" class="mtt-menu-container" style="display:none">
 <ul>
@@ -280,10 +279,6 @@ $().ready(function(){
 </div>
 <div id="space"></div>
 </div>
-
-<!--<div id="footer">
-  <div id="footer_content">Powered by <strong><a href="http://www.mytinytodo.net/">myTinyTodo</a></strong> 1.4.3 </div>
-  </div>-->
 
 </div>
 </body>

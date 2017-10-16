@@ -1,14 +1,5 @@
 <?php
 
-/*
-	myTinyTodo language pack
-	Language: English
-	Original name: English
-	Author: Max Pozdeev
-	Author Url: http://www.mytinytodo.net
-	AppVersion: v1.4.2
-	Date: 2011-03-21
-*/
 
 class Lang extends DefaultLang
 {
@@ -44,11 +35,11 @@ class Lang extends DefaultLang
 		'taskdate_created' => "Created",
 		'taskdate_completed' => "Completed",
 		'go_back' => "&lt;&lt; Back",
-		'edit_task' => "Edit Task",
-		'add_task' => "New Task",
+		'edit_task' => "Edit stroy",//changed
+		'add_task' => "New story",//changed
 		'priority' => "Priority",
-		'task' => "Task",
-		'note' => "Note",
+		'task' => "story",//changed
+		'note' => "description",//changed
 		'tags' => "Tags",
 		'save' => "Save",
 		'cancel' => "Cancel",
@@ -82,7 +73,7 @@ class Lang extends DefaultLang
 		'action_delete' => "Delete",
 		'action_priority' => "Priority",
 		'action_move' => "Move to",
-		'notes' => "Notes:",
+		'notes' => "Description:",//chaned
 		'notes_show' => "Show",
 		'notes_hide' => "Hide",
 		'list_new' => "New list",

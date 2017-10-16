@@ -1,8 +1,5 @@
 <?php
 
-/*
-	myTinyTodo default language class
-*/
 
 class DefaultLang
 {
@@ -20,7 +17,7 @@ class DefaultLang
 		'invalidpass' => "Wrong password",
 		'tagfilter' => "Tag:",
 		'addList' => "Create new list",
-		'addListDefault' => "Todo",
+		'addListDefault' => "New list",
 		'renameList' => "Rename list",
 		'deleteList' => "This will delete current list with all tasks in it.\\nAre you sure?",
 		'clearCompleted' => "This will delete all completed tasks in the list.\\nAre you sure?",
@@ -29,7 +26,7 @@ class DefaultLang
 
 	private $default_inc = array
 	(
-		'My Tiny Todolist' => "My Tiny Todolist",
+		'My Tiny Todolist' => "Propal",//changed
 		'htab_newtask' => "New task",
 		'htab_search' => "Search",
 		'btn_add' => "Add",
@@ -43,11 +40,11 @@ class DefaultLang
 		'taskdate_created' => "Created",
 		'taskdate_completed' => "Completed",
 		'go_back' => "&lt;&lt; Back",
-		'edit_task' => "Edit Task",
-		'add_task' => "New Task",
+		'edit_task' => "Edit stroy",//changed
+		'add_task' => "New story",//changed
 		'priority' => "Priority",
-		'task' => "Task",
-		'note' => "Note",
+		'task' => "story",//changed
+		'note' => "description",//changed
 		'tags' => "Tags",
 		'save' => "Save",
 		'cancel' => "Cancel",
@@ -64,8 +61,8 @@ class DefaultLang
 		'sortByDateCreated' => "Sort by date created",
 		'sortByDateModified' => "Sort by date modified",
 		'due' => "Due",
-		'daysago' => "%d days ago",
-		'indays' => "in %d days",
+		// 'daysago' => "%d days ago",
+		// 'indays' => "in %d days",
 		'months_short' => array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"),
 		'months_long' => array("January","February","March","April","May","June","July","August","September","October","November","December"),
 		'days_min' => array("Su","Mo","Tu","We","Th","Fr","Sa"),
@@ -73,37 +70,37 @@ class DefaultLang
 		'today' => "today",
 		'yesterday' => "yesterday",
 		'tomorrow' => "tomorrow",
-		'f_past' => "Overdue",
-		'f_today' => "Today and tomorrow",
-		'f_soon' => "Soon",
+		// 'f_past' => "Overdue",
+		// 'f_today' => "Today and tomorrow",
+		// 'f_soon' => "Soon",
 		'action_edit' => "Edit",
 		'action_note' => "Edit Note",
 		'action_delete' => "Delete",
 		'action_priority' => "Priority",
 		'action_move' => "Move to",
-		'notes' => "Notes:",
+		'notes' => "description:",
 		'notes_show' => "Show",
 		'notes_hide' => "Hide",
 		'list_new' => "New list",
 		'list_rename' => "Rename list",
 		'list_delete' => "Delete list",
-		'list_publish' => "Publish list",
+		// 'list_publish' => "Publish list",
 		'list_showcompleted' => "Show completed tasks",
 		'list_clearcompleted' => "Clear completed tasks",
-		'list_select' => "Select list",
+		// 'list_select' => "Select list",
 		'list_export' => "Export",
 		'list_export_csv' => "CSV",
 		'list_export_ical' => "iCalendar",		
-		'list_rssfeed' => "RSS Feed",
+		// 'list_rssfeed' => "RSS Feed",
 		'alltags' => "All tags:",
 		'alltags_show' => "Show all",
 		'alltags_hide' => "Hide all",
 		'a_settings' => "Settings",
-		'rss_feed' => "RSS Feed",
-		'feed_title' => "%s",
-		'feed_completed_tasks' => "Completed tasks",
-		'feed_modified_tasks' => "Modified tasks",
-		'feed_new_tasks' => "New tasks",
+		// 'rss_feed' => "RSS Feed",
+		// 'feed_title' => "%s",
+		// 'feed_completed_tasks' => "Completed tasks",
+		// 'feed_modified_tasks' => "Modified tasks",
+		// 'feed_new_tasks' => "New tasks",
 		'alltasks' => "All tasks",
 
 		/* Settings */

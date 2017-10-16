@@ -341,8 +341,8 @@ li.mtt-item-hidden { display:none; }
 #slmenucontainer li.mtt-list-hidden a { font-style:italic; }
 #cmenulistscontainer li.mtt-list-hidden { font-style:italic; }
 
-#btnRssFeed .menu-icon { background:url(images/buttons.png) -16px -64px no-repeat; }
-#btnRssFeed.mtt-item-disabled .menu-icon { background:url(images/buttons.png) 0px -64px no-repeat; }
+/*#btnRssFeed .menu-icon { background:url(images/buttons.png) -16px -64px no-repeat; }
+#btnRssFeed.mtt-item-disabled .menu-icon { background:url(images/buttons.png) 0px -64px no-repeat; }*/
 
 .mtt-settings-table { width:100%; border-collapse:collapse; }
 .mtt-settings-table th, .mtt-settings-table td { border-bottom:1px solid #dedede; padding:8px; vertical-align:top; }
